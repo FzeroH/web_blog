@@ -1,4 +1,9 @@
 import { createApp } from 'vue';
 import App from './App.vue';
+import router from './router';
 
-createApp(App).mount('#app');
+require('dotenv').config();
+
+createApp(App)
+  .use(router)
+  .mount('#app');
