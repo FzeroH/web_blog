@@ -24,6 +24,9 @@ export default defineComponent({
 div{
   display: flex;
   flex-direction: column;
+  background-color: #d8d9de;
+  margin: 5px 5px 5px 0;
+  max-width: 25%;
 }
 
 h3 {
